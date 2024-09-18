@@ -1,0 +1,15 @@
+The HTML structure is integrated into the React component, but here’s the breakdown of what it generates:
+<div class="dashboard">
+  <h1 class="dashboard-title">Energy Management Dashboard</h1>
+  <!-- If loading -->
+  <p>Loading data...</p>
+  
+  <!-- If there's an error -->
+  <p class="error-message">Failed to fetch energy data.</p>
+  
+  <!-- If data is successfully loaded -->
+  <div class="chart-container">
+    <!-- Chart.js graph gets rendered here -->
+    <canvas id="energyChart"></canvas>
+  </div>
+</div>

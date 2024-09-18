@@ -1,0 +1,42 @@
+/* General Styling for Dashboard */
+.dashboard {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title Styling */
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Chart Container Styling */
+.chart-container {
+  width: 80%;
+  max-width: 1000px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Message Styling */
+.error-message {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Loading Styling */
+.loading-message {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+}
